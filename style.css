@@ -28,6 +28,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* Login Styles */
 .login-container, h1, p {
+    color: crimson;
     text-align: center;
     margin: 20px;
   }
@@ -63,5 +64,12 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     margin-top: 10px; /* Add some space above the login button */
   }
+
+  button:hover{
+    background-color: salmon;
+    transition: .3s ease;
+    text-decoration: none;
+  }
+
 
   
